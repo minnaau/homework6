@@ -56,9 +56,9 @@ document.querySelector("#volumeSlider").addEventListener("change", function() {
 });
 
 document.querySelector("#old").addEventListener("click", function() {
-	
+	video.classList.add("oldTime");
 });
 
 document.querySelector("#original").addEventListener("click", function() {
-
+	video.classList.remove("oldTime");
 });
